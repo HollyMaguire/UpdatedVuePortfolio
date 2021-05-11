@@ -16,6 +16,7 @@
 <script>
   //import Board from "../components/Board";
   //import box from "../components/box";
+  
   export default {
     el: '#ticTacToe',
     data() { return {
