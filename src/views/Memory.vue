@@ -1,5 +1,5 @@
 <template>
-   <v-app id="mainPage">
+  <v-app id="Memory">
    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <div> 
         <h1> Click on the cards to flip them, then match the images</h1>
@@ -50,7 +50,7 @@ export default {
 
     },
 
-    el: '#mainPage',
+    el: '#Memory',
     methods: {
         cardsClicked(name){
              this.clickedArray.push(name);
@@ -152,7 +152,7 @@ this.results = `there is not a match  ${name}`
 }
 
 
-#mainPage{background: rgb(75,240,252);
+#Memory {background: rgb(75,240,252);
 background: radial-gradient(circle, rgba(75,240,252,1) 0%, rgba(115,190,218,1) 35%);
 }
 </style>
