@@ -1,5 +1,5 @@
 <template>
-<v-app id="mainPage">
+<v-app id="luckApp">
 <div>
   <div class="betinfo"> Type in your Starting Bet:<input background-color="red" v-model.number="wallet"></div>
 

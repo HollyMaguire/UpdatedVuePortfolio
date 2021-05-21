@@ -8,7 +8,7 @@ import countingCharacters from './views/countingCharacters.vue'
 // import EtchASketch from './views/EtchASketch.vue'
 //import TicTacToe from './views/TicTacToe.vue'
 import findMax from './views/findMax.vue'
-import profile from './views/profile.vue'
+
 import viewsMousetracking from './views/Mousetracking.vue'
 import luckySevens from './views/luckySevens.vue'
 import restaurant from './views/restaurant.vue'
@@ -61,8 +61,8 @@ export default new Router({
     // },
     {
       path: '/',
-      name: 'profile',
-      component: profile
+      name: 'Memory',
+      component: Memory
     },
     {
       path: '/Memory',

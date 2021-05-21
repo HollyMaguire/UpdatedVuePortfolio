@@ -70,6 +70,11 @@ export default new Router({
       component: Memory 
     },
     {
+      path: '/',
+      name: 'Memory',
+      component: Memory 
+    },
+    {
       path: '/dice',
       name: 'dice',
       component: dice
