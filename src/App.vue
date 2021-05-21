@@ -7,9 +7,7 @@
        <v-btn color="teal"> <router-link :to="{ name: 'rockPaperScissors'}">rockPaperScissors </router-link></v-btn>
       <v-btn  color="yellow"><router-link :to="{ name: 'dice' }">Dice</router-link> </v-btn>
       <v-btn color="green"> <router-link :to="{ name: 'luckySevens'}">Lucky Sevens </router-link></v-btn>
-      <!-- <v-btn color="grey"><router-link :to="{ name: 'EtchASketch'}">Etch-A-Sketch </router-link></v-btn> -->
-      <v-btn color="purple"> <router-link :to="{ name: 'viewsMousetracking'}">Display Mouse Position </router-link></v-btn>
-      <!-- <v-btn  color="red"><router-link :to="{ name: 'EvenandOddNumbers' }">Even and Odd Number Generator </router-link></v-btn> -->
+      <v-btn color="purple"> <router-link :to="{ name: 'viewsMousetracking'}">Display Mouse Position </router-link></v-btn>    
       <v-btn  color="blue"><router-link :to="{ name: 'countingCharacters'}"> Counting Characters</router-link></v-btn>
      <v-btn color="pink"> <router-link :to="{ name: 'findMax'}"> Find Max </router-link></v-btn>
      <v-btn  color="red"><a hred="https://github.com/HollyMaguire">GitHub</a></v-btn> 
